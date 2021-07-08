@@ -63,7 +63,8 @@ p#first-p{
 margin
 border
 padding
-content */
+content 
+*/
 
 .box-model{
     background-color: lightgreen;
