@@ -1,0 +1,123 @@
+/* External CSS */
+html{
+    font-size: 20px;
+}
+body{
+    background-color: #edea87;
+    /* font-size: 10px; */
+}
+/* p{
+    background-color:burlywood;
+    color: beige;
+    padding: 1%;
+} */
+
+/* Color properties in CSS */
+h1{
+    color: skyblue;
+}
+h2{
+    color: #32a852;
+}
+h3{
+    color: rgb(168, 50, 50);
+}
+
+/* Font propertiesin CSS */
+p{
+    font-family: Snell Roundhand, cursive;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* px em and rem in CSS */
+ul{
+    font-size: 20px;
+}
+li{
+    font-size: 1.5rem;
+}
+
+/* Line  properties in CSS */
+h4{
+    line-height: 10px;
+    font-size: 20px;
+}
+
+/* Class in CSS */
+div.box-1{
+     background-color: skyblue;
+}
+
+.box-2{
+    background-color: tomato;
+}
+
+/* ID in CSS */
+p#first-p{
+    color: violet;
+}
+
+/* BOX model in CSS 
+margin
+border
+padding
+content */
+
+.box-model{
+    background-color: lightgreen;
+    width: 500px;
+    /* margin-bottom: 50px; */
+    margin: 5px 10px 15px 20px;
+    border: 10px solid lightsalmon;
+    padding: 5px;
+}
+
+.box-2 h1,h2{
+    background-color:orange;
+}
+
+/* Text and Spacing properties in CSS */
+.box-model{
+    text-decoration:underline;
+    text-transform: uppercase;
+
+    letter-spacing: 20px;
+    word-spacing: 2px;
+}
+
+.categories{
+    border: 1px solid sandybrown;
+    border-radius: 20px;
+    background-color: peru;
+    padding: 10px;
+
+}
+
+.categories h1{
+    text-align: center;
+}
+.categories ul{
+    padding: 0px;
+    list-style: none;
+    
+}
+
+.categories a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.categories a:hover{
+    color: red;
+    
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 2px dotted green;
+
+}
