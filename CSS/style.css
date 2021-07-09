@@ -122,3 +122,52 @@ content
     border-bottom: 2px dotted green;
 
 }
+
+/* Form in CSS */
+.my-form{
+    padding: 10px;
+   
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+    
+}
+
+.my-form .form-group label{
+    display: block;
+    font-weight: bold;
+}
+
+
+
+.my-form .form-group input[type="text"],input[type="email"],textarea {
+    width: 100%;
+    padding:8px;
+}
+
+.button{
+    text-align: center;
+    padding:10px;
+    border-radius: 10px;
+    background-color: indianred;
+    color: white;
+}
+
+.button:hover{
+    margin: 0.2em 0;
+    background-color: red;
+    line-height: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+#gender{
+    font-weight: bold;
+
+}
+
+.radio-class {
+    padding-bottom: 10px;
+}

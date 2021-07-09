@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,7 @@
 
     <!-- internal CSS -->
     <style>
-        p{
+        p {
             color: salmon;
         }
     </style>
@@ -17,27 +18,30 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
     <div class="box-1">
         <!-- inline CSS -->
-    <h1 style="color: blue;background-color: rebeccapurple;font-family: Brush Script MT, Brush Script Std, cursive;">Inline CSS</h1>
+        <h1
+            style="color: blue;background-color: rebeccapurple;font-family: Brush Script MT, Brush Script Std, cursive;">
+            Inline CSS</h1>
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, iusto.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, iusto.</p>
 
-    <h1>Colors examples using Name</h1>
-    <h2>Colors examples using Hex</h2>
-    <h3>Colors examples using RGB</h3>
+        <h1>Colors examples using Name</h1>
+        <h2>Colors examples using Hex</h2>
+        <h3>Colors examples using RGB</h3>
 
-    <p>Fonts in CSS </p>
+        <p>Fonts in CSS </p>
 
-    <ul>
-        <li>px example</li>
-        <li>em example</li>
-        <li>rem example</li>
-    </ul>
+        <ul>
+            <li>px example</li>
+            <li>em example</li>
+            <li>rem example</li>
+        </ul>
 
-    <h4>Line height</h4>
+        <h4>Line height</h4>
     </div>
 
     <div class="box-2">
@@ -45,13 +49,13 @@
         <h2>The Div 2</h2>
         <p id="first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quae.</p>
     </div>
-    
+
     <div class="box-model">
-        
+
         <p>Lorem ipsum dolor sit amet.
             Lorem ipsum dolor sit amet.
         </p>
-     
+
     </div>
     <p>Lorem ipsum dolor sit amet.
         Lorem ipsum dolor sit amet.
@@ -64,5 +68,58 @@
             <li><a href="#">Yahoo</a></li>
         </ul>
     </div>
+
+    <!-- form -->
+    <br>
+    <form class="my-form">
+        <fieldset>
+
+            <legend><b>Registration form</b></legend>
+
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" name="name">
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label>DOB</label>
+                <input type="date" name="date">
+            </div>
+
+            <div class="radio-class">
+                <label id="gender">Gender</label>
+                <br>
+                <input type="radio" name="gender">
+                <label>Male</label>
+
+                <input type="radio" name="gender">
+                <label>Female</label>
+
+            </div>
+
+            
+
+
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea name="message"> </textarea>
+            </div>
+
+
+
+            <input class="button" type="submit" value="Submit" name="button">
+
+
+        </fieldset>
+
+    </form>
+
 </body>
+
 </html>
