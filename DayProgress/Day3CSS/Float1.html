@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Layout Floating</title>
+</head>
+<style>
+    .float {
+        background-color: grey;
+        border: 1px dotted wheat;
+        padding: 15px;
+        
+
+        /* to exclude padding in float */
+        box-sizing: border-box;
+
+    }
+
+    .float h1,h2{
+        color: tomato;
+    }
+
+    .float p{
+        color: turquoise;
+    }
+
+    .clear-fix {
+        clear: both;
+    }
+
+    #fl {
+        float: left;
+        width: 60%;
+        height: 200px;
+    }
+
+    #fr {
+        float: right;
+        width: 40%;
+        height: 200px;
+    }
+</style>
+
+<body>
+    <div class="float" id="fl">
+        <h1>heading 1</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, vel. Nam nulla fuga, officiis nesciunt at
+            consequuntur sit nostrum sint.</p>
+    </div>
+
+    <div class="float" id="fr">
+        <h1>heading 2</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo, vel. Nam nulla fuga, officiis nesciunt at
+            consequuntur sit nostrum sint.</p>
+    </div>
+
+    <!-- Should be used afgter float -->
+    <div class="clear-fix"></div>
+
+
+</body>
+
+</html>
+
+<!-- NOTES:
+float and width can be used in css to float right or left
+after using float at last use clearfix  with div and make it as clear:both -->

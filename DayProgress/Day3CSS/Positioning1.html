@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute and Relavtive Positioning</title>
+</head>
+<style>
+    .pos {
+        background-color: teal;
+        color: tomato;
+        width: 500px;
+        height: 500px;
+        position: relative;
+    }
+
+    .pos p {
+        position: absolute;
+        top: 50px;
+        left: 300px;
+
+    }
+
+    .sample {
+        background-color: thistle;
+        color: teal;
+    }
+</style>
+
+<body>
+
+    <div class="sample">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere accusantium unde quas corporis qui accusamus
+            deserunt rem, quis fugiat dolores laudantium suscipit at illum quam! Placeat quis voluptatem necessitatibus
+            officiis quod perferendis perspiciatis, in architecto fuga earum totam, delectus nobis neque tempora est
+            accusamus. Praesentium autem tempore unde ea sed!</p>
+    </div>
+
+    <div class="sample">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere accusantium unde quas corporis qui accusamus
+            deserunt rem, quis fugiat dolores laudantium suscipit at illum quam! Placeat quis voluptatem necessitatibus
+            officiis quod perferendis perspiciatis, in architecto fuga earum totam, delectus nobis neque tempora est
+            accusamus. Praesentium autem tempore unde ea sed!</p>
+    </div>
+
+
+    <div class="sample">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere accusantium unde quas corporis qui accusamus
+            deserunt rem, quis fugiat dolores laudantium suscipit at illum quam! Placeat quis voluptatem necessitatibus
+            officiis quod perferendis perspiciatis, in architecto fuga earum totam, delectus nobis neque tempora est
+            accusamus. Praesentium autem tempore unde ea sed!</p>
+    </div>
+
+
+    <div class="pos">
+        <h1>Heading 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, placeat.</p>
+    </div>
+
+</body>
+
+</html>
+
+<!-- Notes:
+To position any element , use 
+
+Case 1:
+position: absolute;
+top:50px
+
+here body tag is taken as refrence and move accordingly
+
+Case 2: 
+In parent specify
+position: relative;
+
+and in child on which we need to move use
+position: absolute;
+top:50px
+
+Now on based on his parent element it will move -->

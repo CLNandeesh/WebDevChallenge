@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes</title>
+</head>
+<style>
+    .list {
+        color: tomato;
+        background-color: teal;
+    }
+
+    h1 {
+        color: tomato;
+        background-color: gray;
+    }
+
+    .list li:first-child{
+        color: indianred;
+    }
+
+    .list li:nth-child(3){
+        color: lawngreen;
+    }
+
+    .list li:last-child{
+        color: blue;
+    }
+
+    .list li:nth-child(even)
+    {
+        background-color: burlywood;
+    }
+
+</style>
+
+<body>
+    <h1>Corner Drinks Shoppee</h1>
+    <ul class="list">
+        <li>Tea</li>
+        <li>Cofee</li>
+        <li>Milk</li>
+        <li>Green T</li>
+        <li>Juice</li>
+    </ul>
+</body>
+
+</html>
+
+<!-- Notes:
+
+Pseudo classes:
+
+.classname tagname:pseudoclass{ } -->

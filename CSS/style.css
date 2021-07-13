@@ -171,3 +171,57 @@ content
 .radio-class {
     padding-bottom: 10px;
 }
+
+/* float in CSS */
+.block{
+    float: left;
+    width: 33.33%;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/* <!-- Two column layout using float --> */
+#left-block{
+    float: left;
+    width: 70%;
+    height: 200px;
+    border: 1px solid tomato; 
+     padding: 15px; 
+     box-sizing: border-box;
+}
+
+#right-block{
+    float: right;
+    width: 30%;
+    height: 200px;
+     border: 1px solid tomato;
+    padding: 15px; 
+    box-sizing: border-box;
+}
+
+/* POsitioning in CSS */
+.positioning{
+    border: 1px solid tomato;
+    width: 70%;
+    height: 500px;
+    position: relative;  
+    /* to make parent as refrence we make this as relative because .positioning is parent of h1 and h2 tag */
+    
+}
+
+/* .positioning is a parent for h1 and h2 so we make it as relative to make it as refrcne */
+
+.positioning h1{
+  position: absolute;
+  top: 100px; 
+    
+}
+
+.positioning h2{
+    position: absolute;
+    top: 50px; 
+    right: 50px;
+      
+  }
