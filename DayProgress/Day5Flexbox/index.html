@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .box {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;       
+
+    }
+
+    .container {
+
+        border: 2px solid grey;
+        min-height: 50vh;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: baseline;
+        
+
+    }
+
+
+
+    .box1 {
+        background-color: blue;
+
+    }
+
+    .box2 {
+        background-color: teal;
+    }
+
+    .box3 {
+        background-color: green;
+    }
+
+    .box4 {
+        background-color: tomato;
+    }
+
+    .box5 {
+        background-color: orange;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box3">6</div>
+        <div class="box box4">7</div>
+        <div class="box box5">8</div>
+        <div class="box box4">9</div>
+        <div class="box box5">10</div>
+    </div>
+
+</body>
+
+</html>
+
+
+<!-- Notes:
+flex apply on parent div which contains more child divs
+to set multiple div position we use flexbox
+
+makes row level to column level complete width fit
+display: flex; 
+
+makes row level to column level not complete width fit
+display: inline-flex;
+
+Takes compete screen height
+height: 100vh;
+
+To make row or column we use direction by default it is row ie left to right, if we make column it will become top to bottom
+flex-direction: row;
+
+To wrap all div bassed on given width
+flex-wrap: wrap;
+
+
+if flex direction is row 
+then main axis is left to right , cross axis is top to bottom
+to move content we use 
+
+justify-content: flex-start;  for main axis movement
+align-items: flex-start; for cross axis movement
+
+
+-->

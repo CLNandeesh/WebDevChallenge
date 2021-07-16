@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        font-size: 60px;
+        height: 50vh;
+        background-color: palegoldenrod;
+
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: flex-end;
+       
+
+    }
+
+    .box {
+        width: 100px;
+    }
+
+    .box1 {
+        background-color: blue;
+        
+ 
+    }
+
+    .box2 {
+        background-color: teal;
+        
+        
+    }
+
+    .box3 {
+        background-color: green;
+    }
+
+    .box4 {
+        background-color: tomato;
+    }
+
+    .box5 {
+        background-color: orange;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box3">6</div>
+        <div class="box box4">7</div>
+        <div class="box box5">8</div>
+        <div class="box box4">9</div>
+        <div class="box box5">10</div>
+
+
+    </div>
+
+</body>
+
+</html>
+
+
+<!-- Notes:
+
+Properties for the Parent
+(flex container)
+
+1)flex
+To defines flex for container 
+now we can able to controll all its child elements
+.container {
+  display: flex; /* or inline-flex */
+}
+
+2)axis in flexbox
+if flex-direction is row
+main axis: left to right
+cross axis : top to botton
+
+if flex direction is column
+main axis: top to bottom
+cross axis : left to right
+
+
+
+3)flex-direction 
+to set direction of the flex items in the container
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+
+4) Flex-wrap
+to wrap the flexitems in different line 
+.container {
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
+5)flex-flow 
+to combine directiona dn warp
+.container {
+  flex-flow: column wrap;
+}
+
+6) justify-content
+to arrange flex items in the container wrt main axis left to right moving if direction is column
+.container {
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+}
+
+7) align-items
+to arrange flexitems in conatiner wrt cross axis ---top to bottm moving if direction is row
+.container {
+  align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
+}
+
+8) align-content
+.container {
+  align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;
+}
+
+Properties for the Children
+(flex items)
+
+1) order
+to control order of the items
+.item {
+  order: 5; /* default is 0 */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->

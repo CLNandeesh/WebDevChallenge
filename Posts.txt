@@ -1,10 +1,10 @@
 Linkdin
-Day 7 of My WebDev journey , Float, Positioning and Pseudo classes in HTML and CSS #100daysofcode #webdevelopment #webdev #DEVcommunity
+Day 10 of My WebDev journey , Flex box cont... #100daysofcode #webdevelopment #webdev #DEVcommunity
 Github Link: https://github.com/CLNandeesh/WebDevChallenge
 
 
 Twitter
-Day 7 of WebDev journey, Float, Positioning and Pseudo classes in HTML and CSS #100DaysOfCode
+Day 10 of WebDev journey, Flex box cont... #100DaysOfCode
 #DEVcommunity @freeCodeCamp #CodeNewbies
 
 Github Link: https://github.com/CLNandeesh/WebDevChallenge
