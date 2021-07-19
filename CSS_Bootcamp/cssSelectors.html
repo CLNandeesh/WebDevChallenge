@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+<style>
+    p {
+        background-color: teal;
+        width: 200px;
+    }
+
+    #p3 {
+        color: tomato;
+    }
+
+    .head{
+        color: yellowgreen;
+        background-color: violet;
+        width: 400px;
+    }
+
+    .underline-text{
+        text-decoration: underline;
+    }
+
+    /* comment 
+       line */
+</style>
+
+<body>
+    <h1 class="head underline-text"> Paragraphs</h1>
+    <p>paragraph 1</p>
+    <p>paragraph 2</p>
+    <p id="p3">paragraph 3</p>
+    <p>paragraph 4</p>
+    <p>paragraph 5</p>
+
+    
+
+</body>
+
+</html>
+
+<!-- Notes:
+
+1) element Selectors
+tagname{
+    prop:value;
+}
+
+2) id Selectors
+#idname{
+    prop:value;
+}
+
+3) class Selectors 
+.classname{
+    prop:value;
+}
+
+Note:
+id and class can be used both in same element
+class="firstclassname secondclassname"
+priority : id then class then tagname
+
+Comments in CSS
+/* comment 
+   line   */
+-->
