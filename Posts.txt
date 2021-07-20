@@ -1,13 +1,13 @@
 Linkdin
-Day 10 of My WebDev journey , Flex box cont... #100daysofcode #webdevelopment #webdev #DEVcommunity
-Github Link: https://github.com/CLNandeesh/WebDevChallenge
+Day 12 of My WebDev journey , Frontend mentor challenge demo site creation #100daysofcode #webdevelopment #webdev #DEVcommunity
+Github Link: https://github.com/CLNandeesh/WebDevChallenge/tree/master/DayProgress
 
 
 Twitter
-Day 10 of WebDev journey, Flex box cont... #100DaysOfCode
+Day 12 of WebDev journey, Frontend mentor challenge demo site creation #100DaysOfCode
 #DEVcommunity @freeCodeCamp #CodeNewbies
 
-Github Link: https://github.com/CLNandeesh/WebDevChallenge
+Github Link: https://github.com/CLNandeesh/WebDevChallenge/tree/master/DayProgress
 
 http://127.0.0.1:5500/index.html
 
