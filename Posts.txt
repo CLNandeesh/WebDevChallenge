@@ -84,3 +84,45 @@ Papu ColourFulllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
 https://www.youtube.com/watch?v=dD63zKYLYs8
 https://www.youtube.com/watch?v=ZeAkslcLSEE
 U and Me , ege super ag nodkothino muddu bangara ninna yochibeda sumniru 
+
+
+
+
+
+
+
+We are updating assortment_planning_project_budget_item_level_updated table while running LA. We will be removing this part and hence the data which is saved from Intelligent Clustering would remain the same.  Since this table is used in other codes, we have to add a snippet of joining the table with the mapping table (source and target) in all these codes. 
+
+#1: 
+We have removed updating assortment_planning_project_budget_item_level_updated table while running LA, hence the data which is saved from Intelligent Clustering would remain the same and have added a snippet of joining the table with the mapping table (source and target) in all these codes so the issue in re running Line architecture in edit flow has been re-solved for non comp plans and comp plans (only mapping cases)
+
+#2:
+Buy rollup algo error for the some plans which do not have data for ly/lly has been re-solved.
+
+mam , nanu ticket create madidre 2 mails barbeku alva
+1) nange matra
+2) in grp mail list , adralli bargava u me ella irodhu mail list
+
+
+We can able to see Confidence column in 
+1) Promopipeline UI and Download [completed/ongoing/unmatched DM]
+2) Offer builder Summary Table UI and download
+3) Confidence value for all AddGroup
+for TY
+
+
+
+
+there was no data present for ly/lly for some plans. it was failing because of that. now we have fixed that issue. even if it has no data buy roll up will still run
+
+
+
+
+
+
+
+
+
+
+
+

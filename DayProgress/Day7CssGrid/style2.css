@@ -1,0 +1,112 @@
+:root {
+    --yellow: #ffc600;
+    --black: #272727;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+      Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-weight: 900;
+    font-size: 10px;
+    color: var(--black);
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-image: url('./images/topography.svg'),
+      linear-gradient(110deg, #f93d66, #6d47d9);
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin: 50px;
+    background-attachment: fixed;
+    letter-spacing: -1px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 5px 0;
+  }
+
+  .item {
+    /* We center the contents of these items. You can also do this with flexbox too! */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+    font-size: 35px;
+    background-color: var(--yellow); /* best colour */
+  }
+  .item p {
+    margin: 0 0 5px 0;
+  }
+
+  .container{
+      display: grid;
+      gap:20px ;
+      grid-template-columns: repeat(5,1fr );
+  }
+
+  .item9{
+      background-color: chocolate;
+        grid-column: span 2;
+        grid-row: span 3;
+  }
+
+  .item10{
+      background-color: darkgoldenrod;
+      grid-column-start: 2;
+       grid-column-end: 5; 
+  }
+
+  .item8{
+    background-color: teal;
+    grid-column:3/span 6 ;
+}
+
+.item7{
+    background-color: tomato;
+    grid-column: 1/-1;
+    grid-row: 3/-1;
+}
+
+
+
+
+
+  /* Notes: 
+
+  1) grid-column/grid-row
+  to expand specific grid items wrt column or row
+  grid-column: span 2; 
+  if column is 1fr then this items column size becomes 2fr
+
+  grid-row: span 3;
+  if row is 1fr then this items row size becomes 2fr
+
+  2) grid-column-start /grid-column-end
+  Works on specific grid item
+  To start item from specific column [grid line] and end on specifc column[grid line]
+   grid-column-start: 2;
+   grid-column-end: 5;
+   that speciifc item start from 2 column and end at 5 column
+
+If we want to start from specific column or to end at specifc column or to start/end with specifc column we use this
+
+3)grid-column
+works on grid items 
+start with span 
+Ex: grid-column:2/span 4 
+start from second column [grid line] and span four times[expand]
+Ex: grid-column:1/-1 start from 1 anmd end till last
+
+simlarly we can use grid-row for arranging items in row
+
+grid-row: fromvalue[+ or -] / to value [+ or -]
+grid column: fromvalue[+ or -] / to value [+ or -]
+
+   */
