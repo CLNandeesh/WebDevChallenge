@@ -1,14 +1,14 @@
 
 Notes:
 ------
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 200px;
-grid-template-rows: 1.5fr 4.5fr 200px; 
-gap: 10px;
-grid-row: span 3;
-grid-column-start: 2;
-grid-column-end: 5;
-grid-column:2/span 4 
+display: grid;  to make grid 
+grid-template-columns: 1fr 1fr 1fr 200px;    to create columns 
+grid-template-rows: 1.5fr 4.5fr 200px;   to craete rows 
+gap: 10px;   to give gaps between grid lines
+grid-row: span 3;   to expand grid item
+grid-column-start: 2;  to start grid item from specific position 
+grid-column-end: 5;     to end item at speciifc position
+grid-column:2/span 4    start and expand grid items
 grid-column:1/-1
 
 
