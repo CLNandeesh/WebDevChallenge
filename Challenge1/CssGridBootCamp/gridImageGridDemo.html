@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image grid</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+    .container {
+        display: grid;
+        height: 100vh;
+        background-color: #CCDE2C;
+        background-image: url('./images/topography.svg'),
+            linear-gradient(110deg, #f93d66, #6d47d9);
+
+        grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+        /* grid-template-columns: repeat(4,auto); */
+        grid-auto-rows: repeat(auto-fit, minmax(247px, 300));
+        gap: 10px;
+        grid-auto-flow: dense;
+        align-content: start;
+        border-radius: 10px;
+
+    }
+
+    .container div {
+        box-shadow: 5px 5px 10px #D108F4;
+    }
+
+    h1 {
+        text-align: center;
+        background-image: url('./images/topography.svg'),
+            linear-gradient(110deg, #f93d66, #6d47d9);
+        height: 50px;
+        margin: 0px;
+        font-family: 'Poppins';
+        color: white;
+        box-shadow: 5px 5px 10px #D108F4;
+        text-shadow: 2px 2px 2px #F4AB08;
+        border-radius: 10px;
+        margin-bottom: 5px;
+
+    }
+
+    .bb {
+        grid-column: auto span 2;
+        grid-row: auto span 2;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        box-shadow: 0 0 5px grey;
+    }
+
+    p {
+        font-family: 'Poppins';
+        font-size: medium;
+        padding: 8px;
+        text-shadow: 2px 2px 2px #F4AB08;
+        color: white;
+        text-align: center;
+
+    }
+
+    .image {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        filter: brightness(80%);
+        filter:saturate(75%);
+        border-radius: 20px;
+    }
+
+ 
+</style>
+
+<body>
+    <h1>MS DHONI CSS IMAGE GRID</h1>
+    <div class="container">
+
+
+
+        <div class="image a"><img src="images/a.jpg" alt="">
+            <p>Dhoni in CSK</p>
+        </div>
+        <div class="image b"><img class="bb" src="images/b.jpg" alt="">
+            <p>Dhoni in Inida</p>
+        </div>
+        <div class="image c"><img src="images/c.jpg" alt="">
+            <p>Dhoni in Inida</p>
+        </div>
+        <div class="image d"><img src="images/d.jpg" alt="">
+            <p>Dhoni in Word Cup</p>
+        </div>
+        <div class="image e"><img src="images/e.jpg" alt="">
+            <p>Dhoni in Championship Tropy</p>
+        </div>
+        <div class="image f"><img src="images/f.jpg" alt="">
+            <p>Dhoni in Family</p>
+        </div>
+        <div class="image g"><img src="images/g.jpg" alt="">
+            <p>Dhoni in Car racing</p>
+        </div>
+        <div class="image h"><img src="images/h.jpg" alt="">
+            <p>Dhoni in Press meet</p>
+        </div>
+        <div class="image i"><img src="images/i.jpg" alt="">
+            <p>Dhoni in CSK</p>
+        </div>
+        <div class="image j"><img src="images/j.jpg" alt="">
+            <p>Dhoni in Birthday</p>
+        </div>
+
+       
+    </div>
+    
+</body>
+
+</html>
+
+
+
+
+<!-- Notes: 
+
+grid-auto-flow:dense; Fills all blank cells -->

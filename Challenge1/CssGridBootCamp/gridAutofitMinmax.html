@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .b1 {
+        background-color: palegreen;
+    }
+
+    .b2 {
+        background-color: paleturquoise;
+    }
+
+    .b3 {
+        background-color: lightgray;
+    }
+
+    .b4 {
+        background-color: lightyellow;
+    }
+
+    .b5 {
+        background-color: lightgreen;
+    }
+
+    .b6 {
+        background-color: lightpink;
+    }
+
+    .b7 {
+        background-color: palevioletred;
+    }
+
+    .b8 {
+        background-color: palegoldenrod;
+    }
+    .container {
+        height: 100vh;
+        display: grid;
+
+        grid-template-columns: repeat(auto-fit, 400px);
+        grid-template-rows: 300px ;
+        grid-auto-rows: 100px;
+
+        gap: 10px;
+
+
+
+    }
+
+    
+</style>
+
+<body>
+    <div class="container">
+        <div class="box b1">1</div>
+        <div class="box b2">2</div>
+        <div class="box b3">3</div>
+        <div class="box b4">4</div>
+        <div class="box b5">5</div>
+        <div class="box b6">6</div>
+        <div class="box b7">7</div>
+        <div class="box b8">8</div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- Notes: 
+
+1) repeat(auto-fit, size);
+   Creates dynamic number of columns and rows based on available size with specified size for each contanier
+   grid-template-columns: repeat(auto-fit, 400px);
+   grid-template-rows: repeat(autofit,100px);
+
+   100px for each item will be created as space available
+
+2) min-max(minValue,maxValue)
+Set min and max value
+used for responsiveness 
+grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+set min 100px for each item and max 1fr 
+as we expand this will auto adjust 
+
+3) grid-auto-rows: size;
+Implicit rows
+rows which are created without our specifying size
+total 8 div, we spacify 2 rows all other 6 rows are implicit rows
+
+grid-auto-rows: 100px;  set all implicit rows to 100px
+
+-->

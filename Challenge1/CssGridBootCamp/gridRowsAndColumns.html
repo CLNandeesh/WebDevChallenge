@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .b1 {
+        background-color: palegreen;
+    }
+
+    .b2 {
+        background-color: paleturquoise;
+    }
+
+    .b3 {
+        background-color: lightgray;
+    }
+
+    .b4 {
+        background-color: lightyellow;
+    }
+
+    .b5 {
+        background-color: lightgreen;
+    }
+
+    .b6 {
+        background-color: lightpink;
+    }
+
+    .b7 {
+        background-color: palevioletred;
+    }
+
+    .b8 {
+        background-color: palegoldenrod;
+    }
+
+    body {
+        background-color: #E5E78F;
+        background: 5px solid black;
+    }
+
+    .container {
+        display: grid;
+
+        /* grid-template-columns: 150px auto 100px;
+        grid-template-rows: 100px 200px; */
+
+        grid-template: repeat(4,1fr)/repeat(2,2fr);
+
+        gap: 10px;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="box b1">1</div>
+        <div class="box b2">2</div>
+        <div class="box b3">3</div>
+        <div class="box b4">4</div>
+        <div class="box b5">5</div>
+        <div class="box b6">6</div>
+        <div class="box b7">7</div>
+        <div class="box b8">8</div>
+    </div>
+
+</body>
+
+</html>
+
+
+<!-- Notes:
+
+ROWS AND COLUMNS IN GRID:
+-------------------------
+
+1) To make grid
+display: grid;
+
+2) To make columns
+grid-template-columns: 150px auto 100px;
+
+3) To make rows
+grid-template-rows: 100px 200px;
+
+4) To provide gap
+gap: 10px; 
+
+6) to make rows and columns in same line
+grid-template: repeat(2,1fr) / repeat(4,2fr)
+2 rows and 4 columns
+
+UNITS:
+------
+
+5) repeat(3,1fr) : 3 times 1 fr 
+ex: grid-template-columns: repeat(4,1fr);
+
+POSITIONING
+-----------
+
+
+
+
+
+
+
+
+-->

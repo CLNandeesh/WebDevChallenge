@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .header {
+        background-color: palegreen;
+    }
+
+    .menu {
+        background-color: #EA2E20;
+    }
+
+    .content {
+        background-color: lightgray;
+    }
+
+    .footer {
+        background-color: #5CE32F;
+    }
+
+
+
+    body {
+        background-color: #E5E78F;
+        background: 5px solid black;
+    }
+
+    .container {
+        height: 100vh;
+        display: grid;
+        /* grid-template: 40px 200px 40px/repeat(2,1fr); */
+        
+        /* 4 column of 1fr size */
+        grid-template-columns: repeat(4, 3fr);
+        grid-template-rows: 50px auto 100px;
+
+        gap: 10px;
+
+        grid-template-areas: 
+        ". h h h"
+        "m c c c"
+        ". f f f";
+
+
+    }
+
+    .header {
+        grid-area: h;
+        text-align: center;
+
+    }
+
+    .menu {
+        grid-area: m;
+        text-align: center;
+
+    }
+
+    .content {
+        grid-area: c;
+        text-align: center;
+        
+        background-image: url('content.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .footer {
+        grid-area: f;
+        text-align: center;
+       
+
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">HEADER</div>
+        <div class="menu">MENU</div>
+        <div class="content">CONTENT</div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+
+</html>
+
+<!-- to position grid elements wrt column and row line
+
+    GRID-TEMPLATE-AREAS
+    -------------------
+    based on number of rows and columns defined given names in .container 
+    grid-template-areas: 
+        "h h h h"
+        "m c c c"
+        "m f f f";
+
+    If we give . [dot] in place of any label that will not show
+
+    In each section specify it
+     grid-area: nameGiven;
+
+    Ex:
+    .footer {
+        grid-area: f;
+        text-align: center;
+
+    }
+
+
+-->

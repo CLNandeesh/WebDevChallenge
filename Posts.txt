@@ -1,10 +1,10 @@
 Linkdin
-Day 12 of My WebDev journey , Frontend mentor challenge demo site creation #100daysofcode #webdevelopment #webdev #DEVcommunity
+Day 15 of My WebDev journey , Css Grid demo site creation #100daysofcode #webdevelopment #webdev #DEVcommunity
 Github Link: https://github.com/CLNandeesh/WebDevChallenge/tree/master/DayProgress
 
 
 Twitter
-Day 12 of WebDev journey, Frontend mentor challenge demo site creation #100DaysOfCode
+Day 15 of WebDev journey, Css Grid demo site creation  #100DaysOfCode
 #DEVcommunity @freeCodeCamp #CodeNewbies
 
 Github Link: https://github.com/CLNandeesh/WebDevChallenge/tree/master/DayProgress
@@ -104,10 +104,9 @@ mam , nanu ticket create madidre 2 mails barbeku alva
 2) in grp mail list , adralli bargava u me ella irodhu mail list
 
 
-We can able to see Confidence column in 
+We have tested Test instance,  can able to see Confidence column in 
 1) Promopipeline UI and Download [completed/ongoing/unmatched DM]
 2) Offer builder Summary Table UI and download
-3) Confidence value for all AddGroup
 for TY
 
 
@@ -116,7 +115,19 @@ for TY
 there was no data present for ly/lly for some plans. it was failing because of that. now we have fixed that issue. even if it has no data buy roll up will still run
 
 
+Hi All,
 
+We have successfully given a new deployment into the Belk Production environment with multiple enhancements yesterday. Please see the attached release notes for more details around all the enhancements.  
+
+Here is the link - https://apt.belk.com/login
+
+Your old credentials will work here.
+
+Please share the feedback on the recent enhancements.
+
+
+Thank you
+Nandeesh CL
 
 
 
