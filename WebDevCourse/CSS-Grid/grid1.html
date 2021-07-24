@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rows and Columns</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+    body {
+        font-family: 'Poppins';
+        background-color: #F4AB08;
+        height: 100vh;
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .i1 {
+        background-color: #D9D428;
+    }
+
+    .i2 {
+        background-color: #98D928;
+    }
+
+    .i3 {
+        background-color: #28D94A;
+    }
+
+    .i4 {
+        background-color: #28D9D4;
+    }
+
+    .i5 {
+        background-color: #283AD9;
+    }
+
+    .i6 {
+        background-color: #B228D9;
+    }
+
+    .container{
+        display: grid;
+        /* grid-template-columns: 200px auto 200px;
+        grid-template-rows: 150px 150px ; */
+        
+        grid-template: repeat(2,150px)/repeat(2,1fr);
+        grid-gap: 5px;
+    }
+
+    .items{
+        box-shadow: 5px 5px 5px red;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="items i1">Firts</div>
+        <div class="items i2">Second</div>
+        <div class="items i3">Third</div>
+        <div class="items i4">Fourth</div>
+        <div class="items i5">5</div>
+        <div class="items i6">6</div>
+    </div>
+
+</body>
+
+</html>

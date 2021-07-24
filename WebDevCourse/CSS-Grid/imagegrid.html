@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image grid</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+
+    body {
+        font-family: 'Poppins';
+        background-color: #F4AB08;
+        height: 100vh;
+        font-size: 25px;
+        text-align: center;
+        color: white;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+        grid-auto-rows: 300px;
+        gap: 10px;
+        grid-auto-flow: dense;
+        
+    }
+
+    .box{
+        box-shadow: 5px 5px 5px green;
+        width: 100%;
+    }
+
+    .b7{
+        grid-column: span 2;
+    }
+
+    .b1{
+        grid-row: span 2;
+    }
+
+
+</style>
+
+<body>
+    <h1>My Image Grid</h1>
+    <div class="container">
+        <div class="box b1"><img src="images/a.jpg" alt=""></div>
+        <div class="box b2"><img src="images/b.jpg" alt=""></div>
+        <div class="box b3"><img src="images/c.jpg" alt=""></div>
+        <div class="box b4"><img src="images/d.jpg" alt=""></div>
+        <div class="box b5"><img src="images/e.jfif" alt=""></div>
+        <div class="box b6"><img src="images/f.jpeg" alt=""></div>
+        <div class="box b7"><img src="images/g.jpeg" alt=""></div>
+        <div class="box b8"><img src="images/h.jpeg" alt=""></div>
+        <div class="box b1"><img src="images/a.jpg" alt=""></div>
+        <div class="box b2"><img src="images/b.jpg" alt=""></div>
+        <div class="box b3"><img src="images/c.jpg" alt=""></div>
+        <div class="box b4"><img src="images/d.jpg" alt=""></div>
+        <div class="box b5"><img src="images/e.jfif" alt=""></div>
+        <div class="box b6"><img src="images/f.jpeg" alt=""></div>
+        <div class="box b7"><img src="images/g.jpeg" alt=""></div>
+        <div class="box b8"><img src="images/h.jpeg" alt=""></div>
+    </div>
+
+</body>
+
+</html>

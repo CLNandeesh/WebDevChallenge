@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template areas</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+body {
+    font-family: 'Poppins';
+    background-color: #F4AB08;
+    height: 100vh;
+    font-size: 55px;
+    text-align: center;
+}
+.header{
+    background-color: #B228D9;
+    grid-area: h;
+    
+}
+
+.menu{
+    background-color: #28D6D9;
+    grid-area: m;
+     
+
+}
+
+.content{
+    background-color: #3F28D9;
+    grid-area: c;
+}
+
+.footer{
+    background-color: #D92859;
+    grid-area: f;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 200px 400px 200px;
+
+    grid-template-areas: 
+    ". h"
+    "m c"
+    ". f";
+    
+}
+</style>
+<body>
+    <div class="container">
+        <div class="header">HEADER</div>
+        <div class="menu">MENU</div>
+        <div class="content">CONTENT</div>
+        <div class="footer">FOOTER</div>
+    </div>
+</body>
+</html>

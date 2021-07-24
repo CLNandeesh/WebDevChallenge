@@ -1,10 +1,10 @@
 Linkdin
-Day 15 of My WebDev journey , Css Grid demo site creation #100daysofcode #webdevelopment #webdev #DEVcommunity
+Day 16 of My WebDev journey , Image CSS grid creation #100daysofcode #webdevelopment #webdev #DEVcommunity
 Github Link: https://github.com/CLNandeesh/WebDevChallenge/tree/master/DayProgress
 
 
 Twitter
-Day 15 of WebDev journey, Css Grid demo site creation  #100DaysOfCode
+Day 16 of WebDev journey, Image CSS grid creation  #100DaysOfCode
 #DEVcommunity @freeCodeCamp #CodeNewbies
 
 Github Link: https://github.com/CLNandeesh/WebDevChallenge/tree/master/DayProgress
